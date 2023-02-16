@@ -1,0 +1,108 @@
+.nav-bar{
+    display:flex;
+    background-color: rgb(226, 43, 195);
+    justify-content: space-between;
+}
+/* .menu-bar {
+        margin-left: 0 auto !important;
+     } */
+    .menu-bar{
+        justify-content: center;
+        align-items: center;
+        
+     }
+     
+    .menu-bar ul {
+        list-style-type: none;
+        color: white;
+        display: flex;
+     }
+ .menu-bar li{
+    padding: 15px;
+    
+    }
+.btn button{
+    margin-top: 1rem;
+    color: palevioletred;
+    background-color:rgba(128, 128, 128, 0.519);
+    border-radius:20px;
+    border: none;
+    padding:1rem;
+    }
+    
+/* Style The Dropdown Button */
+.dropbtn {
+    background: none;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: gray;
+  padding: 9px 11px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #8e3e7d;
+}
+.Home{
+  color: white;
+  text-decoration: none;
+  }
+  .Home:hover{
+    color: #8e3e7d;
+  }
+  .bar{
+    display: none;
+  }
+  .click{
+    color: white;
+    text-decoration:none;
+  }
+@media (max-width: 500px){
+    body{
+        background-color: plum
+    }
+    ul li{
+      display: none;}
+      .btn{
+        display: none;
+      }
+      .bar{
+        position:absolute;
+        top: 50px;
+        display: block;
+      left: 320px;
+      width: 100rem;
+    }
+}
