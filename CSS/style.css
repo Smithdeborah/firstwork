@@ -1,6 +1,6 @@
 .nav-bar{
     display:flex;
-    background-color: rgb(226, 43, 195);
+    background-color:rgba(84, 2, 2, 0.553);
     justify-content: space-between;
 }
 /* .menu-bar {
@@ -73,14 +73,14 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #8e3e7d;
+  background-color: rgba(255, 235, 205, 0.305);
 }
 .Home{
   color: white;
   text-decoration: none;
   }
   .Home:hover{
-    color: #8e3e7d;
+    color: rgba(255, 228, 196, 0.427);
   }
   .bar{
     display: none;
@@ -105,4 +105,75 @@
       left: 320px;
       width: 100rem;
     }
+}
+/* this is hero session */
+.hero{
+  text-align: center;
+  padding-top: 150px;
+}
+.bging{
+  background-image: url(../images/wedding\ ring\ \(1\).jpg);
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.toomuch{
+  margin: 1rem;
+}
+.joy{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.joy2{
+  display: flex;
+  justify-content: space-between;
+}
+.joy3{
+  display: flex;
+  justify-content: space-between;
+}
+.joy4{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.btn2{
+  text-align: center;
+}
+.btn3{
+  text-align: center;
+}
+.joy5{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 2rem;
+  background-color: blanchedalmond;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding: 2rem;
+}
+.btn4{
+  margin-top: 5rem;
+  margin-left: 50rem;
+  padding: 2px;
+background-color: rgba(165, 42, 42, 0.26);
+}
+.joy7{
+  display: flex;
+  justify-content: space-between;
+}
+.joy8{
+  display: flex;
+  gap: 50px;
+  justify-content:center
+}
+.dropdown2{
+  position:relative;
+  /* top: 50px; */
+  /* display: block; */
+/* left:0px */
+/* width: 100rem; */
 }
